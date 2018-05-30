@@ -33,4 +33,8 @@ public class Login implements Serializable {
 		this.password = password;
 	}
 
+	public boolean autenticacion() {
+		return "holaplatzi".equals(password);
+	}
+
 }
